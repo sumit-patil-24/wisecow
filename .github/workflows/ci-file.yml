@@ -62,3 +62,4 @@ jobs:
           git commit -m "Update image tag ${IMAGE_TAG}" || exit 0
 
           git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} HEAD:main
+          
