@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: wisecow
-        image: sumit202/wisecow:latest
+        image: sumit202/wisecow:9d81296
 
         ports:
         - containerPort: 4499
